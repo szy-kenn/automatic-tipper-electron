@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#root {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* color: white; */
+    font-family: 'Montserrat';
+    overflow: hidden;
+}

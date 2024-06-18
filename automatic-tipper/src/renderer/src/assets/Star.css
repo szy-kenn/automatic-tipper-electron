@@ -1,0 +1,35 @@
+.star {
+    fill: #bf873e;
+    position: relative;
+    cursor: pointer;
+}
+
+.rating-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1.25rem 0;
+    animation: appear-chat .5s ease;
+}
+
+.rating-container.finished {
+    pointer-events: none;
+}
+
+.rating-container.finished > svg > .star {
+    fill: #fab65e;
+}
+
+@keyframes appear-chat {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
