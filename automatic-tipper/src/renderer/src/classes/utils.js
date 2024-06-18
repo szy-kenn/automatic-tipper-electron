@@ -25,7 +25,7 @@ export const applyRules = (food_rating, service_rating) => {
   return [parseFloat(r1).toFixed(2), parseFloat(r2).toFixed(2), parseFloat(r3).toFixed(2)];
 }
 
-export const z = [0.1, 0.15, 0.2]
+export const z = [0.05, 0.15, 0.2]
 
 export const calculateWeightedAverage = (data) => {
   let WA = 0;
