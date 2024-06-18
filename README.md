@@ -1,4 +1,6 @@
-# automatic-tipper-electron
+# Automatic Tipper
+
+## How To Run
 
 1. Go to the project directory
 
