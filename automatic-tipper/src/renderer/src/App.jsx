@@ -135,7 +135,7 @@ const App = () => {
 
 
             <Chat pos={"left"} delay={1250} handleMessage={setMessageCounter}>
-              <p>Here's the fuzzified values of their food quality:</p>              
+              <p>Here are the fuzzified values of their food quality:</p>              
               {fuzzifiedFoodRating.map((mf, idx) => <p key={idx}> <span style={{fontWeight: "bold"}}>{foodQualityLabels[idx]}:</span> {mf}</p>)}
             </Chat>
 
