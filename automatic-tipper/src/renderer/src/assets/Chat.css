@@ -7,6 +7,7 @@
     align-items: center;
     animation: appear-chat .25s ease;
     text-wrap: pretty;
+    justify-content: flex-start;
 }
 
 .chat-container.left {
@@ -20,12 +21,14 @@
 
 .icon {
     position: relative;
+    align-self: flex-end;
+    border-radius: 999px;
     /* border: 1px solid red; */
 }
 
 .icon > img {
     position: relative;
-    height: 64px;
+    height: 56px;
     aspect-ratio: 1;
 }
 
@@ -34,7 +37,7 @@
     border: 1px solid #c2c2c2;
     padding: .75rem 1.25rem;
     border-radius: 1rem;
-    background: #f8f8f8;
+    background: #f8fbfd;
     line-height: 150%;
 }
 

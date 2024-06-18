@@ -4,7 +4,6 @@ import Star from './Star'
 
 const Rating = ({finished, handleClick, delay, currentRating, setCurrentRating}) => {
 
-//   const [currentRating, setCurrentRating] = useState(5);
   const [isShown, setIsShown] = useState(false);
 
   const handleHover = (e) => {
