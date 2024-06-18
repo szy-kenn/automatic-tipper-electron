@@ -1,7 +1,19 @@
 # automatic-tipper-electron
 
-`cd automatic-tipper`
+1. Go to the project directory
 
-`npm install`
+    ```bash
+    cd automatic-tipper
+    ```
 
-`npm run dev`
+2. Install dependencies
+
+    ```bash
+    npm install
+    ```
+
+3. Run local server
+
+    ```bash
+    npm run dev
+    ```
